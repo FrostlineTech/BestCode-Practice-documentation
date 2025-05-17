@@ -30,7 +30,7 @@ python conditional_refactoring.py
 ## Practice Areas
 | Category              | Examples                          |
 |-----------------------|-----------------------------------|
-| Environment Config    | [Basic](./.env.example), [Advanced](./advanced.env.example), [Validation](./best_practices_example.py) |
+| Environment Config    | [Basic](./.env.example), [Advanced](./.advanced.env.example), [Validation](./api_security_practices.py) |
 | Conditional Logic     | [Strategy Patterns](./conditional_refactoring.py) |
 | Security              | [Patterns](./api_security_practices.py), [Example](./api_security_example.py) |
 | API Design            | [REST Patterns](./api_design.py) |
