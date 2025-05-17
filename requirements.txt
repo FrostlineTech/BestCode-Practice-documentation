@@ -1,14 +1,19 @@
-# Core
-python-dotenv==1.0.0
-pydantic==2.5.3
-fastapi==0.104.1
-uvicorn==0.24.0.post1
+# EXAMPLE REQUIREMENTS - NOT FOR ACTUAL USE
+# Demonstrates secure dependency management practices
 
-# Testing
-pytest==7.4.3
-httpx==0.26.0
+# Pinned versions with vulnerability checks
+Django==4.2.1  # LTS version with security updates
+psycopg2-binary==2.9.6  # PostgreSQL adapter
 
-# Linting
-flake8==6.1.0
-black==23.11.0
-mypy==1.7.1
+# Security monitoring tools
+sentry-sdk==1.32.0  # Error tracking
+python-dotenv==1.0.0  # Environment management
+
+# Development tools (separate from production)
+flake8==6.1.0  # Code linting
+pytest==7.4.0  # Testing framework
+
+# Best Practices:
+# - Use requirements.in with pip-tools for compiled deps
+# - Regularly audit dependencies with safety/bandit
+# - Separate dev vs prod dependencies

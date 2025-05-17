@@ -1,0 +1,40 @@
+{
+  "description": "EXAMPLE SECURITY RULES - NOT ACTUAL CONFIGURATION",
+  "rules": [
+    {
+      "action": "block",
+      "description": "Sample WAF rule configuration",
+      "filters": [
+        {
+          "type": "expression",
+          "value": "cf.threat_score > 14",
+          "comment": "Always validate input sources"
+        }
+      ],
+      "security_notes": [
+        "Implement rate limiting for API endpoints",
+        "Enable challenge verification for suspicious requests"
+      ]
+    },
+    {
+      "action": "challenge",
+      "description": "Sample bot management rule configuration",
+      "filters": [
+        {
+          "type": "expression",
+          "value": "cf.bot_management.score < 30",
+          "comment": "Always validate input sources"
+        }
+      ],
+      "security_notes": [
+        "Implement rate limiting for API endpoints",
+        "Enable challenge verification for suspicious requests"
+      ]
+    }
+  ],
+  "best_practices": [
+    "Regularly review and test security rules",
+    "Use version control for configuration changes",
+    "Monitor false positive rates"
+  ]
+}
