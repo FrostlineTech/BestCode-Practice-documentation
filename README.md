@@ -30,10 +30,12 @@ python conditional_refactoring.py
 ## Practice Areas
 | Category              | Examples                          |
 |-----------------------|-----------------------------------|
-| Environment Config    | [Basic](./.env.example), [Advanced](./best_practices_example.py) |
+| Environment Config    | [Basic](./.env.example), [Advanced](./advanced.env.example), [Validation](./best_practices_example.py) |
 | Conditional Logic     | [Strategy Patterns](./conditional_refactoring.py) |
-| Security              | *Coming Soon*                    |
-| API Design            | *Coming Soon*                    |
+| Security              | [Patterns](./api_security_practices.py), [Example](./api_security_example.py) |
+| API Design            | [REST Patterns](./api_design.py) |
+| Testing Strategies    | [Test Practices](./testing_strategies.py) |
+| Performance           | *Coming Soon*                    |
 
 *"Good code is its own best documentation."* - Steve McConnell
 
